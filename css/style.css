@@ -1,0 +1,81 @@
+/*
+Using the lovely Share Tech Typeface 
+Designed by Ralph du Carrois: https://plus.google.com/115136075458641781982/about
+Hosted on Google Fonts: https://www.google.com/fonts/specimen/Share+Tech
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Share+Tech);
+
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+*:focus{
+    outline: 0;
+}
+
+body {
+  font: normal 16px/150% 'Share Tech', Arial, Helvetica, Roboto, sans-serif; 
+  background: #eee;
+}
+
+#main-ui {
+width: 280px;
+padding: 10px;
+text-align: center;
+position: relative;
+color: #333;
+}
+
+#main-ui *{
+  text-shadow: 1px 1px 0px #ccc;
+}
+
+#main-ui h3 {
+font-size: 2em;
+}
+
+#main-ui input{
+font: normal 1.5em 'Share Tech', Arial, Helvetica, Roboto, sans-serif;
+padding: 0.5em;
+width: 100%;
+color: #555;
+background: #fff;
+border: 2px solid #ccc;
+text-align: center;
+}
+
+#main-ui input:hover{
+color: #444;
+border-color: #aaa;
+background-color: #f8f8f8;
+}
+
+#main-ui input:focus{
+border-color:#999;
+color: #333;
+background-color: #fff;
+}
+
+#main-ui button{
+font: normal 1.5em 'Share Tech', Arial, Helvetica, Roboto, sans-serif;
+color: #444444;
+padding: 0.5em;
+background: #f8f8f8;
+border: 2px solid #999999;
+margin-top: 0.25em;
+width: 100%;
+}
+
+#main-ui button:hover, #main-ui button:focus{
+color: #333;
+border-color: #aaa;
+background-color: #f8f8f8;
+}
+
+#main-ui button:active{
+border-color:#999;
+color: #ddd;
+background-color: #333;
+}
